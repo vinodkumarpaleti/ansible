@@ -1,12 +1,12 @@
-- name: Installing nginx in host  #name is not mandatory, this is best practice
+- name: Install and Run nginx # name is not mandatory, this is best practice
   hosts: mongodb
-  become: yes #This will give root access
+  become: yes #this will give root access
   tasks:
-  - name: Install Nginx
+  - name: Install nginx
     ansible.builtin.yum:
       name: nginx
-      state: Installed
-  - name: Start Nginx
+      state: installed
+  - name: start nginx
     ansible.builtin.service:
       name: nginx
       state: started
