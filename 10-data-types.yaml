@@ -2,7 +2,7 @@
   hosts: localhost
   vars:
   - AGE: 30 #Number
-  - NAME: "Sivakumar" #String
+  - NAME: "Vinod" #String
   - isDevOps: true #boolean
   - Skills: #list
     - DevOps
