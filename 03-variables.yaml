@@ -11,4 +11,4 @@
       msg: "Hello, I'm learning Ansible"
   - name: Print variables
     ansible.builtin.debug:
-      msg: "Hello I'm learning {{$COURSE}}, Trainer is {{$Trainer}}, Duration is {{$Duration}}"
+      msg: "Hello I'm learning {{COURSE}}, Trainer is {{Trainer}}, Duration is {{Duration}}"
