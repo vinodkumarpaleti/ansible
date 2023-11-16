@@ -1,25 +1,28 @@
+192.168.2.1
+172.35.36.96
+
 [mongodb]
-roboshop-us-dev-db-mongodb-01.jcglobalit.online
+172.31.42.158
 
 [mongodb:vars]
 MONGO_USERNAME=mongodbadmin
 MONGO_DB=categories
-NAME=Vinodkumar-inventory
+NAME=Sivakumar-inventory
 
 [mysql]
-roboshop-us-dev-db-mysql-01.jcglobalit.online
-roboshop-us-dev-db-mysql-02.jcglobalit.online
+roboshop-us-dev-db-mysql-01.joindevops.online
+roboshop-us-dev-db-mysql-02.joindevops.online
 
 [cart]
-roboshop-in-prod-app-cart-01.jcglobalit.online
-roboshop-in-prod-app-cart-02.jcglobalit.online
-roboshop-in-prod-app-cart-03.jcglobalit.online
+roboshop-in-prod-app-cart-01.joindevops.online
+roboshop-in-prod-app-cart-02.joindevops.online
+roboshop-in-prod-app-cart-03.joindevops.online
 
 [user]
-roboshop-in-prod-app-user-01.jcglobalit.online
-roboshop-in-prod-app-user-02.jcglobalit.online
+roboshop-in-prod-app-user-01.joindevops.online
+roboshop-in-prod-app-user-02.joindevops.online
 
-[db:children]  
+[db:children]
 mongodb
 mysql
 
